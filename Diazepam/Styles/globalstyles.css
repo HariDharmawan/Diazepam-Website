@@ -16,6 +16,7 @@ body {
 	margin-bottom:0px;
 	padding:0px;
 	height: auto;
+	position:relative;
 }
 
 #banner {
@@ -77,9 +78,12 @@ h1 {
 	clear:left;
 	background-color:#F4B36C;
 	height:50px;
-	width:950px;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 #footer p {
@@ -92,14 +96,59 @@ h1 {
 #content {
 	margin:0px;
 	padding:0px;
+	padding-bottom:50px;
 }
 
 #content img {
 	width:950px;
-	margin:0px;
+	margin:0px;S
 	padding:0px;
 }
 	
 #content p {
 	margin-bottom:0px;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+table.t01 {
+    width: 50%; 
+    background-color: #f1f1c1;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table.t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table.t01 th {
+    color: white;
+    background-color: black;
+}
+
+#content img.part {
+	width:70%;
+}
+
+table.form {
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: middle;	
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	border-color:#000;
+}
+
