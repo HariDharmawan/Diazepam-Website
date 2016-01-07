@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Images/ice_cream_with_banner.png);
+	margin:0px;
+}
+
+#wrapper {
+	background-color:#F8F4D7;
+	width:950px;
+	min-height:700px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	padding:0px;
+	height: auto;
+}
+
+#banner {
+	background-color:#F4B36C;
+	width:100%;
+	height:210px;
+}
+
+#banner img{
+	float:left;
+	height:200px;
+	margin-bottom:0px;
+}
+
+h1 {
+	float:left;
+	margin-top:auto;
+	text-align:center;
+	font-size:165px;
+	font-weight:500;
+	font-family:cookie;
+	margin-bottom:0px;
+}
+
+#navbar ul {
+	clear:both;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	
+}
+
+#navbar a {
+	text-decoration: none;
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top:10px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:10px;
+	background-color:#F4DEC2;
+	font-weight:bold;
+	color:#000;
+}
+
+#navbar a:hover, #navbar a.active {
+	background-color:#F2B4A8;
+}
+
+#footer {
+	clear:left;
+	background-color:#F4B36C;
+	height:50px;
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer p {
+	text-align:center;
+	margin:0px;
+	padding-top:15px;
+	font-size:20px;
+}
+
+#content {
+	margin:0px;
+	padding:0px;
+}
+
+#content img {
+	width:950px;
+	margin:0px;
+	padding:0px;
+}
+	
+#content p {
+	margin-bottom:0px;
+}
