@@ -25,20 +25,36 @@ body {
 	height:210px;
 }
 
-#banner img{
+.logo2
+{
+	float:right;
+	display:block;
+
+}
+
+.logo1
+{
 	float:left;
-	height:200px;
-	margin-bottom:0px;
+	display:block;
+			
+}
+
+.title
+{
+	margin-left:240px;
+	margin-right:0px;
 }
 
 h1 {
-	float:left;
-	margin-top:auto;
-	text-align:center;
-	font-size:165px;
-	font-weight:500;
-	font-family:cookie;
-	margin-bottom:0px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 150px;
+	font-weight: 500;
+	font-family: cookie;
+	margin-bottom: 0px;
+	margin-lef:200px;
+	
 }
 
 #navbar ul {
@@ -151,4 +167,3 @@ table.form {
 	width:50%;
 	border-color:#000;
 }
-
