@@ -8,6 +8,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,34 +21,51 @@
 
 <body>
 <div id="wrapper">
-<div id="banner">
-  <img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" /> 
+<div id="banner"> <a href="../index.html"><img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" /></a> 
   <h1>Diazepam</h1>
-  <img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" />
-
+  <div id="minitool">
+  <div id="insta"><a href="https://www.instagram.com/?hl=en"><img src="../Images/instagram-logo.jpg"  alt="insta" /><p>@diazepam_sg</p></a></div>
+  <div id="twitter"><a href="https://twitter.com/?lang=en"><img src="../Images/Twitter_logo.png"  alt="twitter" /><p>@diazepam_sg</p></a></div>
+  <div id="fb"><a href="https://www.facebook.com/"><img src="../Images/facebook.png"  alt="facebook" /><p>Diaepam SG</p></a></div>
+	<div id="mail"><a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail#identifier"><img src="../Images/mail logo.png" width="150" height="150" alt="Email" /><p>diazepam@gmail.com</p></a></div>
+	</div>
+</div>
 <div id="navbar">
   <ul>
     <!-- TemplateBeginEditable name="EditRegion3" -->
-      <li><a href="../Sub-pages/whatisdiazepam.html">What is Diazepam</a></li>
+      <li><a href="../Sub-pages/whatisdiazepam.html">About us</a></li>
       <li><a href="../Sub-pages/events.html">Events</a></li>
       <li><a href="../Sub-pages/gallery.html">Gallery</a></li>
+       <li><a href="../Sub-pages/services.html">Services</a></li>
       <li><a href="../Sub-pages/contacts.html">Contacts</a></li>
       <li><a href="../Sub-pages/feedback.html">Feedback</a></li>
-      <!-- TemplateEndEditable -->
+     
+    <!-- TemplateEndEditable -->
   </ul>
+ 
 </div>
-</div>
+
 <!-- TemplateBeginEditable name="EditRegion4" -->
 <div id="content">
 
+</div>
+
+<!-- TemplateEndEditable -->
+<div id="sidebar">
+
+
 
 </div>
-<!-- TemplateEndEditable -->
-
+</div>
 <div id="footer">
 <p>Diazepam | Copyright &copy;2015
 </p>
 </div>
-</div>
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:diazepam.com ' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
 </body>
 </html>
