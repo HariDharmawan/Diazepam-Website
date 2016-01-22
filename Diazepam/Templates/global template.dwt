@@ -8,7 +8,10 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
+<script>
+    paypal.minicart.render();
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,9 +23,7 @@
 </head>
 
 <body>
-<!-- TemplateBeginEditable name="EditRegion5" -->
 <div id="wrapper">
-<<<<<<< HEAD
 <div id="banner"> <a href="../index.html"><img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" /></a> 
   <h1>Diazepam</h1>
   <div id="minitool">
@@ -50,53 +51,18 @@
 <!-- TemplateBeginEditable name="EditRegion4" -->
 <div id="content">
 
-=======
-  <div id="banner">
-    <div class="logo1"><img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" width="204" height="189" /></div>
-    <div class="title">
-      <h1>Diazepam</h1>
-    </div>
-    <div class="logo2"> <img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" width="204" height="189" /></div>
-    <div id="navbar">
-      <ul>
-        <!-- TemplateBeginEditable name="EditRegion3" -->
-          <li><a href="../Sub-pages/whatisdiazepam.html">What is Diazepam</a></li>
-          <li><a href="../Sub-pages/events.html">Events</a></li>
-          <li><a href="../Sub-pages/gallery.html">Gallery</a></li>
-          <li><a href="../Sub-pages/contacts.html">Contacts</a></li>
-          <li><a href="../Sub-pages/feedback.html">Feedback</a></li>
-        <!-- TemplateEndEditable -->
-      </ul>
-    </div>
-  </div>
-  <!-- TemplateBeginEditable name="EditRegion4" -->
-  <div id="content"></div>
-  <!-- TemplateEndEditable -->
-  <div id="footer">
-    <p>Diazepam | Copyright &copy;2015 </p>
-  </div>
->>>>>>> origin/master
 </div>
 
 <!-- TemplateEndEditable -->
-<<<<<<< HEAD
 <div id="sidebar">
-
-
-
-</div>
+<h2 class="mid">Online order</h2>
+<a href="../Sub-pages/order.html"><img src="../Images/ORDER-NOW-starburst.png"  alt="order" /></a>
+<p>You can order our menu by clicking the button above. For further info you can call us.</p> </div>
 </div>
 <div id="footer">
 <p>Diazepam | Copyright &copy;2015
 </p>
 </div>
-<script type="text/javascript">
-    document.getElementById('frmSearch').onsubmit = function() {
-        window.location = 'http://www.google.com/search?q=site:diazepam.com ' + document.getElementById('txtSearch').value;
-        return false;
-    }
-</script>
-=======
->>>>>>> origin/master
+
 </body>
 </html>

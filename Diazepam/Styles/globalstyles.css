@@ -26,24 +26,10 @@ body {
 	height:200px;
 }
 
-.logo2
-{
-	float:right;
-	display:block;
-
-}
-
-.logo1
-{
+#banner img{
 	float:left;
-	display:block;
-			
-}
-
-.title
-{
-	margin-left:240px;
-	margin-right:0px;
+	height:200px;
+	margin-bottom:0px;
 }
 
 #minitool img {
@@ -66,7 +52,6 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
 	margin-top:0px;
 	float:left;
 	text-align:center;
@@ -74,17 +59,6 @@ h1 {
 	font-weight:500;
 	font-family:cookie;
 	margin-bottom:0px;
-=======
-	float: left;
-	margin-top: 20px;
-	text-align: center;
-	font-size: 150px;
-	font-weight: 500;
-	font-family: cookie;
-	margin-bottom: 0px;
-	margin-lef:200px;
-	
->>>>>>> origin/master
 }
 
 #navbar {
@@ -189,7 +163,14 @@ h1 {
 	border-radius:25px;
 }
 
+#sidebar img {
+	width:100%;
+}
 
+#sidebar p {
+	margin:8px;
+	text-align:center;
+}
 
 #content p {
 	margin:10px;
@@ -295,7 +276,6 @@ table.form {
 	width:50%;
 	border-color:#000;
 }
-<<<<<<< HEAD
 
 form {
 	text-align:center;
@@ -412,8 +392,22 @@ img.opening {
 	color:#000;
 }
 
+
 .upevents a:hover {
 	text-decoration:underline;
 }
-=======
->>>>>>> origin/master
+
+form.addcart ul {
+	list-style-type:none;
+}
+
+form.addcart {
+	float:left;
+	margin:20px;
+	text-align:center;
+	width:150px;
+}
+
+form.addcart li {
+	margin-left:-40px;
+}
