@@ -6,8 +6,13 @@
 <title>Diazepam</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+<script src="../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
 <!-- InstanceEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -20,47 +25,83 @@
 
 <body>
 <div id="wrapper">
-<div id="banner">
-  <div class="logo1"><img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo"></div> 
+<div id="banner"> <a href="../index.html"><img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" /></a> 
   <h1>Diazepam</h1>
-  <div class="logo2">
-  <img src="../Images/hipsterlogogenerator_1434522734796.png"  alt="Logo" ></div>
-
+  <div id="minitool">
+  <div id="insta"><a href="https://www.instagram.com/?hl=en"><img src="../Images/instagram-logo.jpg"  alt="insta" /><p>@diazepam_sg</p></a></div>
+  <div id="twitter"><a href="https://twitter.com/?lang=en"><img src="../Images/Twitter_logo.png"  alt="twitter" /><p>@diazepam_sg</p></a></div>
+  <div id="fb"><a href="https://www.facebook.com/"><img src="../Images/facebook.png"  alt="facebook" /><p>Diaepam SG</p></a></div>
+	<div id="mail"><a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail#identifier"><img src="../Images/mail%20logo.png" width="150" height="150" alt="Email" /><p>diazepam@gmail.com</p></a></div>
+	</div>
+</div>
 <div id="navbar">
   <ul>
     <!-- InstanceBeginEditable name="EditRegion3" -->
-      <li><a href="whatisdiazepam.html">What is Diazepam</a></li>
+      <li><a href="whatisdiazepam.html">About us</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
       <li><a href="contacts.html">Contacts</a></li>
       <li><a href="feedback.html" class="active">Feedback</a></li>
-      <!-- InstanceEndEditable -->
+    <!-- InstanceEndEditable -->
   </ul>
+ 
 </div>
-</div>
+
 <!-- InstanceBeginEditable name="EditRegion4" -->
 <div id="content">
-<form action="" method="get">
-<table  class="form">
-<tr>
-<td><p>Full Name</p></td>
-<td><input name="Name" type="text" value="" /></td></tr>
-<tr>
-<td>Address</td>
-<td><input name="address" type="text" value="" />
-</td>
-</tr>
-
-
-</table></form>
+<h2 class="mid">Please fill the form below</h2>
+  <form action="" method="get">
+  <table  class="form">
+  <tr>
+  <td>Full Name:</td>
+  <td><span id="sprytextfield1">
+    <input name="Full Name" type="text" value="" />
+    <span class="textfieldRequiredMsg">Please enter your name</span></span></td></tr>
+  <tr>
+  <td>Phone number:</td>
+  <td><span id="sprytextfield2">
+  <input name="Phone number" type="text" />
+  <span class="textfieldRequiredMsg">Please enter a number</span><span class="textfieldMinCharsMsg">Invalid number</span></span></td>
+  </tr>
+  <tr>
+  <td>Email address:</td>
+  <td><input name="Email address" type="text" /></td>
+  </tr>
+  <tr>
+  <td>Feedback:</td>
+  <td><span id="sprytextarea1">
+    <textarea name="Feedback" cols="45" rows="5"></textarea>
+    <span class="textareaRequiredMsg">Please enter a message</span></span></td>
+  </tr>
+  </table>
+  <input name="Submit" type="submit" value="Submit" />
+  <input name="Reset" type="reset" value="Reset" />
+  </form>
+  
 
 </div>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {validateOn:["blur"]});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "none", {validateOn:["blur"], minChars:8});
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {validateOn:["blur"]});
+</script>
 <!-- InstanceEndEditable -->
+<div id="sidebar">
 
+
+
+</div>
+</div>
 <div id="footer">
 <p>Diazepam | Copyright &copy;2015
 </p>
 </div>
-</div>
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:diazepam.com ' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
 </body>
 <!-- InstanceEnd --></html>
