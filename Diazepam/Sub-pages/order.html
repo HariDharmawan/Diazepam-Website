@@ -8,10 +8,7 @@
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 <link href="../Styles/globalstyles.css" rel="stylesheet" type="text/css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
-<script>
-    paypal.minicart.render();
-</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script>
     WebFont.load({
@@ -50,100 +47,156 @@
 
 <!-- InstanceBeginEditable name="EditRegion4" -->
 <div id="content">
-
+<h2 class="midclear">You can place order below</h2>
         <div class="container">
-            <form  class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+      
+               <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
                 <fieldset>
                     <input type="hidden" name="cmd" value="_cart" />
                     <input type="hidden" name="add" value="1" />
                     <input type="hidden" name="business" value="example@minicartjs.com" />
-                    <input type="hidden" name="item_name" value="Unicorn" />
-                    <input type="hidden" name="amount" value="2.00" />
-                    <input type="hidden" name="discount_amount" value="1.00" />
-                    <input type="hidden" name="currency_code" value="USD" />
-                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
-                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
-                    <strong>Unicorn</strong>
-                    <ul>
-                        <li>Price $2.00</li>
-                        <li>Discounted $1.00</li>
-                    </ul>
-                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                </fieldset>
-            </form>
-
-            <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <input type="hidden" name="cmd" value="_cart" />
-                    <input type="hidden" name="add" value="1" />
-                    <input type="hidden" name="business" value="example@minicartjs.com" />
-                    <input type="hidden" name="item_name" value="Rainbow" />
-                    <input type="hidden" name="item_number" value="ROYGBIV" />
-                    <input type="hidden" name="amount" value="2.00" />
+                    <input type="hidden" name="item_name" value="Cookies ice cream" />
                     <input type="hidden" name="quantity" value="1" />
                     <input type="hidden" name="currency_code" value="USD" />
                     <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
                     <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
-                    <strong>Rainbow</strong>
-                    <ul>
-                        <li>#ROYGBIV</li>
-                        <li>Price $2.00</li>
-                    </ul>
-                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                </fieldset>
-            </form>
-
-            <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-                <fieldset>
-                    <input type="hidden" name="cmd" value="_cart" />
-                    <input type="hidden" name="add" value="1" />
-                    <input type="hidden" name="business" value="example@minicartjs.com" />
-                    <input type="hidden" name="item_name" value="Pony" />
-                    <input type="hidden" name="quantity" value="1" />
-                    <input type="hidden" name="currency_code" value="USD" />
-                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
-                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
-                    <strong>Pony</strong>
+                    <strong>Cookies ice cream</strong>
                     <ul>
                         <li>
                             <label>
                                 <select name="os0">
-                                    <option value="Stripes">Stripes $3.00</option>
-                                    <option value="Spots">Spots $4.00</option>
-                                    <option value="Psychedelic">Psychedelic $5.00</option>
+                                    <option value="Chocolate">Chocolate $5.00</option>
+                                    <option value="Strawberry">Strawberry $5.00</option>
+                                    <option value="Vanilla">Vanilla $4.00</option>
                                 </select>
                             </label>
-                            <input type="hidden" name="on0" value="Type" />
-                            <input type="hidden" name="option_select0" value="Stripes" />
-                            <input type="hidden" name="option_amount0" value="3.00" />
-                            <input type="hidden" name="option_select1" value="Spots" />
-                            <input type="hidden" name="option_amount1" value="4.00" />
-                            <input type="hidden" name="option_select2" value="Psychedelic" />
+                            <input type="hidden" name="on0" value="Flavor" />
+                            <input type="hidden" name="option_select0" value="Chocolate" />
+                            <input type="hidden" name="option_amount0" value="5.00" />
+                            <input type="hidden" name="option_select1" value="Strawberry" />
+                            <input type="hidden" name="option_amount1" value="5.00" />
+                            <input type="hidden" name="option_select2" value="Vanilla" />
+                            <input type="hidden" name="option_amount2" value="4.00" />
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit" value="Buy" class="button" />
+                </fieldset>
+            </form>
+
+
+               <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="add" value="1" />
+                    <input type="hidden" name="business" value="example@minicartjs.com" />
+                    <input type="hidden" name="item_name" value="Cake ice cream" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
+                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
+                    <strong>Cake ice cream</strong>
+                   <ul>
+                        <li>
+                            <label>
+                                <select name="os0">
+                                    <option value="Chocolate">Chocolate $10.00</option>
+                                    <option value="Strawberry">Strawberry $10.00</option>
+                                    <option value="Vanilla">Vanilla $8.00</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="on0" value="Flavor" />
+                            <input type="hidden" name="option_select0" value="Chocolate" />
+                            <input type="hidden" name="option_amount0" value="10.00" />
+                            <input type="hidden" name="option_select1" value="Strawberry" />
+                            <input type="hidden" name="option_amount1" value="10.00" />
+                            <input type="hidden" name="option_select2" value="Vanilla" />
+                            <input type="hidden" name="option_amount2" value="8.00" />
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit" value="Buy" class="button" />
+                </fieldset>
+            </form>
+
+
+            <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="add" value="1" />
+                    <input type="hidden" name="business" value="example@minicartjs.com" />
+                    <input type="hidden" name="item_name" value="Fried ice cream" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
+                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
+                    <strong>Fried ice cream</strong>
+                   <ul>
+                        <li>
+                            <label>
+                                <select name="os0">
+                                    <option value="Chocolate">Chocolate $12.00</option>
+                                    <option value="Strawberry">Strawberry $12.00</option>
+                                    <option value="Vanilla">Vanilla $10.00</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="on0" value="Flavor" />
+                            <input type="hidden" name="option_select0" value="Chocolate" />
+                            <input type="hidden" name="option_amount0" value="12.00" />
+                            <input type="hidden" name="option_select1" value="Strawberry" />
+                            <input type="hidden" name="option_amount1" value="12.00" />
+                            <input type="hidden" name="option_select2" value="Vanilla" />
+                            <input type="hidden" name="option_amount2" value="10.00" />
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit" value="Buy" class="button" />
+                </fieldset>
+            </form>
+
+ <form class="addcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="add" value="1" />
+                    <input type="hidden" name="business" value="example@minicartjs.com" />
+                    <input type="hidden" name="item_name" value="Waffle ice cream" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
+                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
+                    <strong>Waffle ice cream</strong>
+                   <ul>
+                        <li>
+                            <label>
+                                <select name="os0">
+                                    <option value="Chocolate">Chocolate $8.00</option>
+                                    <option value="Strawberry">Strawberry $8.00</option>
+                                    <option value="Vanilla">Vanilla $5.00</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="on0" value="Flavor" />
+                            <input type="hidden" name="option_select0" value="Chocolate" />
+                            <input type="hidden" name="option_amount0" value="8.00" />
+                            <input type="hidden" name="option_select1" value="Strawberry" />
+                            <input type="hidden" name="option_amount1" value="8.00" />
+                            <input type="hidden" name="option_select2" value="Vanilla" />
                             <input type="hidden" name="option_amount2" value="5.00" />
                         </li>
                     </ul>
-                    <input type="submit" name="submit" value="Add to cart" class="button" />
+                    <input type="submit" name="submit" value="Buy" class="button" />
                 </fieldset>
             </form>
 
-            <form class="viewcart"action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" class="last">
-                <fieldset>
-                    <input type="hidden" name="business" value="example@minicartjs.com" />
-                    <input type="hidden" name="cmd" value="_cart" />
-                    <input type="hidden" name="display" value="1" />
-                    <input type="submit" name="submit" value="View your cart" class="button" />
-                </fieldset>
-            </form>
         </div>
 
-
-
+<h2 class="midclear">About:</h2>
+<ul><li>You can choose the flavor then click buy</li>
+<li>To buy multiple times, you need to go back to this page and click buy again.(The list you added before will still be saved)</li>
+<li>We are only serving 4 kind of ice cream and 3 flavor currently for delivery</li></ul>
 <script>
     paypal.minicart.reset();
 </script>
 
 </div>
 
+   
 <!-- InstanceEndEditable -->
 <div id="sidebar">
 <h2 class="mid">Online order</h2>
@@ -154,6 +207,9 @@
 <p>Diazepam | Copyright &copy;2015
 </p>
 </div>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
+<script>
+    paypal.minicart.render();
+</script>
 </body>
 <!-- InstanceEnd --></html>

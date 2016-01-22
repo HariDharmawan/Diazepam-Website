@@ -186,7 +186,16 @@ h2.service {
 h2.food {
 	text-align:center;
 }
+h2.fooddet {
+	margin-top:110px;
+}
 
+img.about {
+	margin:10px;
+	float:left;
+	width:40%;
+	border-radius:25px;
+}
 .foodshow {
 	width:155px;
 	height:150px;
@@ -374,6 +383,7 @@ h2.mid {
 
 .fooddesc {
 	margin:20px;
+	margin-top:50px;
 	padding:10px;
 	-webkit-box-shadow: 1px 1px 15px #999999;
 	box-shadow: 1px 1px 15px #999999;
@@ -410,4 +420,13 @@ form.addcart {
 
 form.addcart li {
 	margin-left:-40px;
+}
+
+form.viewcart {
+	clear:both;
+}
+
+h2.midclear {
+	clear:both;
+	text-align:center;
 }
